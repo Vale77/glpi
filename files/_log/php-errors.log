@@ -1,0 +1,26 @@
+[2022-07-28 04:41:40] glpiphplog.WARNING: Test logger  
+[2022-07-28 04:44:09] glpiphplog.WARNING:   *** PHP User Warning (512): Missing required intl PHP extension in C:\xampp\htdocs\glpi\src\Session.php at line 682
+  Backtrace :
+  src\Session.php:682                                trigger_error()
+  inc\config.php:69                                  Session::loadLanguage()
+  inc\includes.php:53                                include_once()
+  front\locale.php:41                                include()
+  
+[2022-07-28 04:44:27] glpiphplog.WARNING: Test logger  
+[2022-07-28 04:47:00] glpiphplog.WARNING: Test logger  
+[2022-07-28 12:35:00] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Glpi\Marketplace\View::getPaginationHtml(): Argument #2 ($total) must be of type int, string given, called in C:\xampp\htdocs\glpi\ajax\marketplace.php on line 116 in C:\xampp\htdocs\glpi\src\Marketplace\View.php at line 959
+  Backtrace :
+  ajax\marketplace.php:116                           Glpi\Marketplace\View::getPaginationHtml()
+  
+[2022-07-28 12:35:02] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Glpi\Marketplace\View::getPaginationHtml(): Argument #2 ($total) must be of type int, string given, called in C:\xampp\htdocs\glpi\ajax\marketplace.php on line 116 in C:\xampp\htdocs\glpi\src\Marketplace\View.php at line 959
+  Backtrace :
+  ajax\marketplace.php:116                           Glpi\Marketplace\View::getPaginationHtml()
+  
+[2022-07-28 12:55:44] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Glpi\Marketplace\View::getPaginationHtml(): Argument #2 ($total) must be of type int, string given, called in C:\xampp\htdocs\glpi\ajax\marketplace.php on line 116 in C:\xampp\htdocs\glpi\src\Marketplace\View.php at line 959
+  Backtrace :
+  ajax\marketplace.php:116                           Glpi\Marketplace\View::getPaginationHtml()
+  
+[2022-07-28 12:55:45] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Glpi\Marketplace\View::getPaginationHtml(): Argument #2 ($total) must be of type int, string given, called in C:\xampp\htdocs\glpi\ajax\marketplace.php on line 116 in C:\xampp\htdocs\glpi\src\Marketplace\View.php at line 959
+  Backtrace :
+  ajax\marketplace.php:116                           Glpi\Marketplace\View::getPaginationHtml()
+  
